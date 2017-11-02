@@ -2,6 +2,10 @@
 
 ## tip2tip.pl
 
+Dependencies:
+Bio::TreeIO;
+Statistics::Descriptive;
+
 Will calculates for each taxon the average tip-to-tip distance between this given taxon and the 50% 'most distant' other taxa. The reason behind this is to avoid a bias for parts of the trees that more heavily sampled. It then looks for 'outliers' in the distribution of these values.
 
 The definition for this is calculated as follows:
