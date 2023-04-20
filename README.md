@@ -1,5 +1,14 @@
 # phylogenetics
 
+## fasta2c60recoded.pl
+Dependencies: 
+Bio::SearchIO;
+Bio::SeqIO::fasta;
+Bio::SeqIO;
+minmax-chisq by Ed Susko: mathstat.dal.ca/~tsusko/software.html
+
+Will calculate the best recoding scheme for an alignment and generate the recoded alignment as well as the corresponding C60 "recoded" substitution matrix.
+
 ## rate_real2fasta.pl
 Dependencies: 
 Bio::SeqIO::fasta;
