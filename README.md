@@ -1,5 +1,15 @@
 # phylogenetics
 
+## rate_real2fasta.pl
+Dependencies: 
+Bio::SeqIO::fasta;
+Bio::SearchIO;
+Bio::DB::Taxonomy;
+Scalar::Util qw(blessed);
+
+Will generate an alignment removing the fastest evolving sites.
+
+
 ## tip2tip.pl
 
 Dependencies:
